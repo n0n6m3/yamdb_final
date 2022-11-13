@@ -1,5 +1,7 @@
 # yamdb_final
 [![Check and deploy](https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml)
+Проект развернут по http://62.84.119.1 (http://62.84.119.1/admin для проверки)
+Опубликованный Docker-образ приложения Django - n0n6m3/api_yamdb:0.0.2
 
 ## Проект YaMDb собирает отзывы пользователей на различные произведения
 
