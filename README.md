@@ -1,4 +1,6 @@
 # yamdb_final
+(https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 ## Проект YaMDb собирает отзывы пользователей на различные произведения
 
 Проект предоставляет API в виде REST-сервиса для YaMDb.
@@ -71,5 +73,3 @@ sudo docker-compose exec web python3 manage.py loadtestdata
 ## License
 
 MIT
-
-![Статус](https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
