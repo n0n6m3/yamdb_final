@@ -1,5 +1,5 @@
 # yamdb_final
-(https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+[!b](https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Проект YaMDb собирает отзывы пользователей на различные произведения
 
