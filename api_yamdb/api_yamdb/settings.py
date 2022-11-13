@@ -15,13 +15,14 @@ SECRET_KEY = os.getenv(
 
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    '51.250.15.14',
-    'prakt.ddns.net',
-    'localhost',
-    '127.0.0.1',
-    '[::1]',
-]
+ALLOWED_HOSTS = ['*']
+# при перезапуске ip в облаке меняется
+# '51.250.15.14',
+# 'prakt.ddns.net',
+# 'localhost',
+# '127.0.0.1',
+# '[::1]',
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
