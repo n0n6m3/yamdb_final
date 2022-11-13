@@ -72,4 +72,4 @@ sudo docker-compose exec web python3 manage.py loadtestdata
 
 MIT
 
-![Статус](https://github.com/n0n3m6/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![Статус](https://github.com/n0n6m3/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
