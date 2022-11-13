@@ -33,7 +33,6 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2 
       - name: Set up Docker Buildx
-        working-directory: ./api_yamdb
         uses: docker/setup-buildx-action@v1 
       - name: Login to Docker 
         uses: docker/login-action@v1 
@@ -43,6 +42,7 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
         with:
+          context: ./api_yamdb          
           push: true
           tags: n0n6m3/api_yamdb:0.0.2
 
