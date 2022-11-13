@@ -3,11 +3,10 @@ import os
 
 from django.core.management.base import BaseCommand, CommandError
 from django.db.utils import IntegrityError
-from reviews.models import (Category, Comment, Genre,
-                            Review, Title, TitleGenre, User)
+from reviews.models import (Category, Comment, Genre, Review, Title,
+                            TitleGenre, User)
 
 from api_yamdb.settings import BASE_DIR
-
 
 DATA_FILES_DIR = os.path.join(BASE_DIR, 'static/data/')
 DATA_FILES_LIST = (
